@@ -1,0 +1,8 @@
+.pastRides{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 43px;
+    margin-left: 43px;
+}

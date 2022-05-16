@@ -1,0 +1,103 @@
+.optionbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 81px;
+}
+.optionDiv {
+  display: flex;
+  align-items: center;
+  padding-left: 43px;
+  width: 70%;
+}
+.filterDiv {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.filterButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 47px;
+}
+.filterButton:hover {
+  cursor: pointer;
+}
+.filterText {
+  color: #f2f2f2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.filterIcon {
+  color: rgba(255, 255, 255, 0.8);
+  width: 18px;
+  height: 12px;
+  margin-right: 8px;
+}
+.optionText {
+  color: #d0cbcb;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 44px;
+}
+.active {
+  font-weight: 700;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.filterBox {
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  width: 180px;
+  height: 150px;
+  background: #131313;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  display: flex;
+  flex-direction: column;
+}
+.filterStyle {
+  display: flex;
+  align-items: center;
+  height: 20%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #a5a5a5;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  padding-left: 7px;
+  border-bottom: 1px solid #cbcbcb;
+}
+.stateFilter,
+.cityFilter {
+  height: 37.5px;
+
+  background: #232323;
+  border: none;
+  border-radius: 4.68775px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #ffffff;
+  padding: 8px 12px 8px 12px;
+}
+.stateFilter {
+  margin-bottom: 13px;
+}
+.none{
+  display: none;
+}
